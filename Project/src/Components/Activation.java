@@ -210,6 +210,7 @@ public class Activation implements Serializable {
 		}
 	}
 
+
 	private void MakeNull() throws CloneNotSupportedException {
 		PetriObject temp = util.GetFromListByName(OutputPlaceName, Parent.Parent.PlaceList);
 		if (temp == null) {

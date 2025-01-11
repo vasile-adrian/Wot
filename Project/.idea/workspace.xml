@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e181d8be-d7ed-4ea8-987b-0af08b3acf65" name="Changes" comment="" />
+    <list default="true" id="e181d8be-d7ed-4ea8-987b-0af08b3acf65" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Components/Activation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Components/Activation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Components/Condition$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Components/Condition$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Components/Condition.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Components/Condition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DataOnly/CarQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DataOnly/CarQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Enumerations/TransitionCondition.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Enumerations/TransitionCondition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Enumerations/TransitionOperation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Enumerations/TransitionOperation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Utilities/Functions$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Utilities/Functions$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Utilities/Functions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Utilities/Functions.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,9 +27,12 @@
       </list>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2qLVnBrzUt0kqpH3SYRhtonFD8V" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -28,9 +41,11 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.InputCar.executor": "Run",
+    "Application.Lanes.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/adrian/Documents/DCS_Lab/Project5",
+    "last_opened_file_path": "C:/Users/sergi/Desktop/Courses/AN IV/DCS/LAB/Exam/All_Petri_FW/All_Petri_FW",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -39,7 +54,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Lanes">
     <configuration name="InputCar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GUIs.InputCar" />
       <module name="All_Petri_FW" />
@@ -53,8 +68,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Lanes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Project.Lanes" />
+      <module name="All_Petri_FW" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lanes" />
         <item itemvalue="Application.InputCar" />
       </list>
     </recent_temporary>
@@ -62,8 +91,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17011.79" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17011.79" />
       </set>
     </attachedChunks>
   </component>
@@ -76,6 +105,8 @@
       <option name="presentableId" value="Default" />
       <updated>1734442006439</updated>
       <workItem from="1734442007484" duration="11756000" />
+      <workItem from="1736187363674" duration="7116000" />
+      <workItem from="1736249370217" duration="599000" />
     </task>
     <servers />
   </component>
