@@ -29,92 +29,92 @@ public class Lanes {
 
 
         // -------------------------------Places--------------------------------
-        DataCar p1 = new DataCar();
-        p1.SetName("F_a1");
-        pn.PlaceList.add(p1);
+        DataCar RF_a = new DataCar();
+        RF_a.SetName("RF_a");
+        pn.PlaceList.add(RF_a);
 
-        DataCarQueue p2 = new DataCarQueue();
-        p2.Value.Size = 3;
-        p2.SetName("F_x1");
-        pn.PlaceList.add(p2);
+        DataCarQueue RF_x1 = new DataCarQueue();
+        RF_x1.Value.Size = 3;
+        RF_x1.SetName("RF_x1");
+        pn.PlaceList.add(RF_x1);
 
-        DataCarQueue p3 = new DataCarQueue();
-        p3.Value.Size = 3;
-        p3.SetName("F_x2");
-        pn.PlaceList.add(p3);
+        DataCarQueue RF_x2 = new DataCarQueue();
+        RF_x2.Value.Size = 3;
+        RF_x2.SetName("RF_x2");
+        pn.PlaceList.add(RF_x2);
 
-        DataCarQueue p4 = new DataCarQueue();
-        p4.Value.Size = 3;
-        p4.SetName("F_station");
-        pn.PlaceList.add(p4);
+        DataCarQueue RF_station = new DataCarQueue();
+        RF_station.Value.Size = 3;
+        RF_station.SetName("RF_station");
+        pn.PlaceList.add(RF_station);
 
-        DataString p5 = new DataString();
-        p5.SetName("FUsReqStation1");
-        pn.PlaceList.add(p5);
+        DataString RFUsReqStation1 = new DataString();
+        RFUsReqStation1.SetName("RFUsReqStation1");
+        pn.PlaceList.add(RFUsReqStation1);
 
-        DataCar p6 = new DataCar();
-        p6.SetName("F_T2");
-        pn.PlaceList.add(p6);
+        DataCar RF_T2 = new DataCar();
+        RF_T2.SetName("RF_T2");
+        pn.PlaceList.add(RF_T2);
 
-        DataCar p7 = new DataCar();
-        p7.SetName("F_tipografiei");
-        pn.PlaceList.add(p7);
+        DataCar RF_tipografiei = new DataCar();
+        RF_tipografiei.SetName("RF_tipografiei");
+        pn.PlaceList.add(RF_tipografiei);
 
-        DataCar p8 = new DataCar();
-        p8.SetName("F_tipografiei_o");
-        pn.PlaceList.add(p8);
+        DataCar RF_tipografiei_o = new DataCar();
+        RF_tipografiei_o.SetName("RF_tipografiei_o");
+        pn.PlaceList.add(RF_tipografiei_o);
 
-        DataCarQueue p9 = new DataCarQueue();
-        p9.Value.Size = 3;
-        p9.SetName("F_x3");
-        pn.PlaceList.add(p9);
+        DataCarQueue RF_x3 = new DataCarQueue();
+        RF_x3.Value.Size = 3;
+        RF_x3.SetName("RF_x3");
+        pn.PlaceList.add(RF_x3);
 
-        DataString p10 = new DataString();   // for first crossing
-        p10.SetName("F_TL3");
-        pn.PlaceList.add(p10);
+        DataString RF_TL3 = new DataString();   // for first crossing
+        RF_TL3.SetName("RF_TL3");
+        pn.PlaceList.add(RF_TL3);
 
-        DataString p11 = new DataString();
-        p11.SetName("FUsReq3");
-        pn.PlaceList.add(p11);
+        DataString RFUsReq3 = new DataString();
+        RFUsReq3.SetName("RFUsReq3");
+        pn.PlaceList.add(RFUsReq3);
 
-        DataString p12 = new DataString();
-        p12.SetName("F_PTL3");
-        pn.PlaceList.add(p12);
+        DataString RF_PTL3 = new DataString();
+        RF_PTL3.SetName("RF_PTL3");
+        pn.PlaceList.add(RF_PTL3);
 
-        DataTransfer p13 = new DataTransfer();
-        p13.SetName("OFReq3");
-        p13.Value = new TransferOperation("localhost", "1082", "");
-        pn.PlaceList.add(p13);
+        DataTransfer ORFReq3 = new DataTransfer();
+        ORFReq3.SetName("ORFReq3");
+        ORFReq3.Value = new TransferOperation("localhost", "1082", "");
+        pn.PlaceList.add(ORFReq3);
 
-        DataCar p14 = new DataCar();
-        p14.SetName("F_b2");
-        pn.PlaceList.add(p14);
+        DataCar RF_b2 = new DataCar();
+        RF_b2.SetName("RF_b2");
+        pn.PlaceList.add(RF_b2);
 
-        DataCarQueue p15 = new DataCarQueue();
-        p15.Value.Size = 3;
-        p15.SetName("F_x4");
-        pn.PlaceList.add(p15);
+        DataCarQueue RF_x4 = new DataCarQueue();
+        RF_x4.Value.Size = 3;
+        RF_x4.SetName("RF_x4");
+        pn.PlaceList.add(RF_x4);
 
-        DataCar p16 = new DataCar(); // intrare strada Andrei Saguna
-        p16.SetName("F_saguna_i");
-        pn.PlaceList.add(p16);
+        DataCar RF_saguna_i = new DataCar(); // intrare strada Andrei Saguna
+        RF_saguna_i.SetName("RF_saguna_i");
+        pn.PlaceList.add(RF_saguna_i);
 
-        DataCar p17 = new DataCar(); // intrare strada Andrei Saguna
-        p17.SetName("F_saguna");
-        pn.PlaceList.add(p17);
+        DataCar RF_saguna = new DataCar(); // intrare strada Andrei Saguna
+        RF_saguna.SetName("RF_saguna");
+        pn.PlaceList.add(RF_saguna);
 
-        DataTransfer p18 = new DataTransfer(); /// Locatie pt async controller ( Traffic jam)
-        p18.SetName("F_OP4");
-        p18.Value = new TransferOperation("localhost", "1083", "");
-        pn.PlaceList.add(p18);
+        DataTransfer RF_OP4 = new DataTransfer(); /// Locatie pt async controller ( Traffic jam)
+        RF_OP4.SetName("RF_OP4");
+        RF_OP4.Value = new TransferOperation("localhost", "1083", "");
+        pn.PlaceList.add(RF_OP4);
 
-        DataString p19 = new DataString();   // pt semafor cu trecere dar fara req de la pietoni
-        p19.SetName("F_TL4");
-        pn.PlaceList.add(p19);
+        DataString RF_TL4 = new DataString();   // pt semafor cu trecere dar fara req de la pietoni
+        RF_TL4.SetName("RF_TL4");
+        pn.PlaceList.add(RF_TL4);
 
-        DataCar p20 = new DataCar();
-        p20.SetName("F_b4");
-        pn.PlaceList.add(p20);
+        DataCar RF_b4 = new DataCar();
+        RF_b4.SetName("RF_b4");
+        pn.PlaceList.add(RF_b4);
 
         DataString full = new DataString();
         full.SetName("full");
@@ -139,382 +139,472 @@ public class Lanes {
         red.Printable= false;
         pn.ConstantPlaceList.add(red);
         // ----------------------------------------------------------------------------
-        // ----------------------------Exit lane 1-------------------------------------
-        // ----------------------------Ferdinand-------------------------------------
+        // ----------------------------Exit lane-------------------------------------
+        // -----------------------------Ferdinand-------------------------------------
 
-        DataCarQueue p23 = new DataCarQueue(); //p17.Printable = false;
-        p23.Value.Size = 3;
-        p23.SetName("F_o1");
-        pn.PlaceList.add(p23);
+        DataCarQueue RF_o = new DataCarQueue();
+        RF_o.Value.Size = 3;
+        RF_o.SetName("RF_o");
+        pn.PlaceList.add(RF_o);
 
-        DataCar p22 = new DataCar(); //p18.Printable = false;
-        p22.SetName("F_o1e");
-        pn.PlaceList.add(p22);
+        DataCar RF_oe = new DataCar();
+        RF_oe.SetName("RF_oe");
+        pn.PlaceList.add(RF_oe);
 
-        DataCarQueue p24 = new DataCarQueue(); //p17.Printable = false;
-        p24.Value.Size = 3;
-        p24.SetName("F_x5");
-        pn.PlaceList.add(p24);
+        DataCarQueue RF_x5 = new DataCarQueue();
+        RF_x5.Value.Size = 3;
+        RF_x5.SetName("RF_x5");
+        pn.PlaceList.add(RF_x5);
 
-        // ----------------------------------------------------------------------------
-        // ----------------------------Exit lane 1-------------------------------------
-        // ----------------------------M. Viteazu-------------------------------------
+        DataCar RF_b5 = new DataCar();
+        RF_b5.SetName("RF_b5");
+        pn.PlaceList.add(RF_b5);
 
-        DataCarQueue p21 = new DataCarQueue(); //p17.Printable = false;
-        p21.Value.Size = 3;
-        p21.SetName("M_o1");
-        pn.PlaceList.add(p17);
+        DataCar RF_oct = new DataCar();
+        RF_oct.SetName("RF_oct");
+        pn.PlaceList.add(RF_oct);
 
-       // DataCar p22 = new DataCar(); //p18.Printable = false;
-      //  p22.SetName("M_o1e");
-       // pn.PlaceList.add(p18);
+        DataCar RF_oct_o = new DataCar();
+        RF_oct_o.SetName("RF_oct_o");
+        pn.PlaceList.add(RF_oct_o);
 
-        // -------------------------------------------------------------------------------------------
-        // --------------------------------Baritiu-Intersection---------------------------------------
-        // -------------------------------------------------------------------------------------------
+        DataCar RF_o2 = new DataCar();
+        RF_o2.SetName("RF_o2");
+        pn.PlaceList.add(RF_o2);
 
-        DataCarQueue p25 = new DataCarQueue();
-        p25.Value.Size = 3;
-        p25.SetName("P_I1");
-        pn.PlaceList.add(p25);
+        DataCar RF_o2e = new DataCar();
+        RF_o2e.SetName("RF_o2e");
+        pn.PlaceList.add(RF_o2e);
 
-        DataCarQueue p26 = new DataCarQueue();
-        p26.Value.Size = 3;
-        p26.SetName("P_I2");
-        pn.PlaceList.add(p26);
+        DataCarQueue P_I = new DataCarQueue();
+        P_I.Value.Size = 3;
+        P_I.SetName("P_I");
+        pn.PlaceList.add(P_I);
 
-        DataCarQueue p27 = new DataCarQueue();
-        p27.Value.Size = 3;
-        p27.SetName("P_I3");
-        pn.PlaceList.add(p27);
-
-        DataCarQueue p28 = new DataCarQueue();
-        p28.Value.Size = 3;
-        p28.SetName("P_I4");
-        pn.PlaceList.add(p28);
 
         // -------------------------------Transitions--------------------------------
 
-        // T1 ------------------------------------------------
-        PetriTransition t1 = new PetriTransition(pn);
-        t1.TransitionName = "T_u1";
-        t1.InputPlaceName.add("F_a1");
-
-        Condition T1Ct1 = new Condition(t1, "F_a1", TransitionCondition.NotNull);
-        Condition T1Ct2 = new Condition(t1, "F_x1", TransitionCondition.CanAddCars);
-        T1Ct1.SetNextCondition(LogicConnector.AND, T1Ct2);
-
-        GuardMapping grdT1 = new GuardMapping();
-        grdT1.condition = T1Ct1;
-        grdT1.Activations.add(new Activation(t1, "F_a1", TransitionOperation.AddElement, "F_x1"));
-        t1.GuardMappingList.add(grdT1);
-
-        t1.Delay = 0;
-        pn.Transitions.add(t1);
-
-        // T2 ------------------------------------------------
-        PetriTransition t2 = new PetriTransition(pn);
-        t2.TransitionName = "T_s1";
-        t2.InputPlaceName.add("F_x1");
-
-        Condition T2Ct1 = new Condition(t2, "F_x1", TransitionCondition.HaveBus);
-        Condition T2Ct2 = new Condition(t2, "F_x1", TransitionCondition.HaveCarForMe);
-        T2Ct1.SetNextCondition(LogicConnector.AND, T2Ct2);
-
-        GuardMapping grdT2 = new GuardMapping();
-        grdT2.condition = T2Ct1;
-        grdT2.Activations.add(new Activation(t2, "F_x1", TransitionOperation.PopElementWithTargetToQueue, "F_station"));
-        t2.GuardMappingList.add(grdT2);
-
-        t2.Delay = 0;
-        pn.Transitions.add(t2);
-
-        // T3 ------------------------------------------------
-        PetriTransition t3 = new PetriTransition(pn);
-        t3.TransitionName = "T_es";
-        t3.InputPlaceName.add("F_station");
-        t3.InputPlaceName.add("FUsReqStation1");
+        // T_RF_u1 ------------------------------------------------
+        PetriTransition T_RF_u1 = new PetriTransition(pn);
+        T_RF_u1.TransitionName = "T_RF_u1";
+        T_RF_u1.InputPlaceName.add("RF_a");
+
+        Condition T_RF_u1Ct1 = new Condition(T_RF_u1, "RF_a", TransitionCondition.NotNull);
+        Condition T_RF_u1Ct2 = new Condition(T_RF_u1, "RF_x1", TransitionCondition.CanAddCars);
+        T_RF_u1Ct1.SetNextCondition(LogicConnector.AND, T_RF_u1Ct2);
+
+        GuardMapping grdT_RF_u1 = new GuardMapping();
+        grdT_RF_u1.condition = T_RF_u1Ct1;
+        grdT_RF_u1.Activations.add(new Activation(T_RF_u1, "RF_a", TransitionOperation.AddElement, "RF_x1"));
+        T_RF_u1.GuardMappingList.add(grdT_RF_u1);
+
+        T_RF_u1.Delay = 0;
+        pn.Transitions.add(T_RF_u1);
+
+        // T_RF_s ------------------------------------------------
+        PetriTransition T_RF_s = new PetriTransition(pn);
+        T_RF_s.TransitionName = "T_RF_s";
+        T_RF_s.InputPlaceName.add("RF_x1");
+
+        Condition T_RF_sCt1 = new Condition(T_RF_s, "RF_x1", TransitionCondition.HaveBus);
+        Condition T_RF_sCt2 = new Condition(T_RF_s, "RF_x1", TransitionCondition.HaveCarForMe);
+        T_RF_sCt1.SetNextCondition(LogicConnector.AND, T_RF_sCt2);
+
+        GuardMapping grdT_RF_s = new GuardMapping();
+        grdT_RF_s.condition = T_RF_sCt1;
+        grdT_RF_s.Activations.add(new Activation(T_RF_s, "RF_x1", TransitionOperation.PopElementWithTargetToQueue, "RF_station"));
+        T_RF_s.GuardMappingList.add(grdT_RF_s);
+
+        T_RF_s.Delay = 0;
+        pn.Transitions.add(T_RF_s);
+
+        // T_RF_es ------------------------------------------------
+        PetriTransition T_RF_es = new PetriTransition(pn);
+        T_RF_es.TransitionName = "T_RF_es";
+        T_RF_es.InputPlaceName.add("RF_station");
+        T_RF_es.InputPlaceName.add("RFUsReqStation1");
 
-        Condition T3Ct1 = new Condition(t3, "F_station", TransitionCondition.HaveBus);
-        Condition T3Ct2 = new Condition(t3, "FUsReqStation1", TransitionCondition.NotNull);
-        T3Ct1.SetNextCondition(LogicConnector.AND, T3Ct2);
+        Condition T_RF_esCt1 = new Condition(T_RF_es, "RF_station", TransitionCondition.HaveBus);
+        Condition T_RF_esCt2 = new Condition(T_RF_es, "RFUsReqStation1", TransitionCondition.NotNull);
+        T_RF_esCt1.SetNextCondition(LogicConnector.AND, T_RF_esCt2);
 
-        ArrayList<String> input = new ArrayList<>();
-        input.add("F_station");
-        input.add("FUsReqStation1");
-
-        GuardMapping grdT3 = new GuardMapping();
-        grdT3.condition = T3Ct1;
-        grdT3.Activations.add(new Activation(t2, input, TransitionOperation.PopElementWithTargetToQueue, "F_x2")); // or should it be popBusToQueue
-        t3.GuardMappingList.add(grdT3);
+        ArrayList<String> i_RF_station = new ArrayList<>();
+        i_RF_station.add("RF_station");
+        i_RF_station.add("RFUsReqStation1");
+
+        GuardMapping grdT_RF_es = new GuardMapping();
+        grdT_RF_es.condition = T_RF_esCt1;
+        grdT_RF_es.Activations.add(new Activation(T_RF_es, i_RF_station, TransitionOperation.PopElementWithTargetToQueue, "RF_x2")); // or should it be popBusToQueue
+        T_RF_es.GuardMappingList.add(grdT_RF_es);
 
-        t3.Delay = 0;
-        pn.Transitions.add(t3);
+        T_RF_es.Delay = 0;
+        pn.Transitions.add(T_RF_es);
 
-        // T4 ------------------------------------------------
-        PetriTransition t4 = new PetriTransition(pn);
-        t4.TransitionName = "T_1";
-        t4.InputPlaceName.add("F_x1");
-        Condition T4Ct1 = new Condition(t4, "F_x1", TransitionCondition.HaveCarForMe);
-        Condition T4Ct2 = new Condition(t4, "F_x2", TransitionCondition.CanAddCars);
-        T4Ct1.SetNextCondition(LogicConnector.AND, T4Ct2);
+        // T_RF_1 ------------------------------------------------
+        PetriTransition T_RF_1 = new PetriTransition(pn);
+        T_RF_1.TransitionName = "T_RF_1";
+        T_RF_1.InputPlaceName.add("RF_x1");
+        Condition T_RF_1Ct1 = new Condition(T_RF_1, "RF_x1", TransitionCondition.HaveCarForMe);
+        Condition T_RF_1Ct2 = new Condition(T_RF_1, "RF_x2", TransitionCondition.CanAddCars);
+        T_RF_1Ct1.SetNextCondition(LogicConnector.AND, T_RF_1Ct2);
 
 
-        GuardMapping grdT4 = new GuardMapping();
-        grdT4.condition = T4Ct1;
-        grdT4.Activations.add(new Activation(t4, "F_x2", TransitionOperation.PopElementWithTargetToQueue, "F_x2"));
-        t4.GuardMappingList.add(grdT4);
+        GuardMapping grdT_RF_1 = new GuardMapping();
+        grdT_RF_1.condition = T_RF_1Ct1;
+        grdT_RF_1.Activations.add(new Activation(T_RF_1, "RF_x2", TransitionOperation.PopElementWithTargetToQueue, "RF_x2"));
+        T_RF_1.GuardMappingList.add(grdT_RF_1);
 
-        t4.Delay = 0;
-        pn.Transitions.add(t4);
+        T_RF_1.Delay = 0;
+        pn.Transitions.add(T_RF_1);
 
 
-        // T5 ------------------------------------------------
-        PetriTransition t5 = new PetriTransition(pn);
-        t5.TransitionName = "T_2";
-        t5.InputPlaceName.add("F_x2");
+        // T_RF_2 ------------------------------------------------
+        PetriTransition T_RF_2 = new PetriTransition(pn);
+        T_RF_2.TransitionName = "T_RF_2";
+        T_RF_2.InputPlaceName.add("RF_x2");
 
-        Condition T5Ct1 = new Condition(t5, "F_x2", TransitionCondition.HaveCarForMe);
+        Condition T_RF_2Ct1 = new Condition(T_RF_2, "RF_x2", TransitionCondition.HaveCarForMe);
 
-        GuardMapping grdT5 = new GuardMapping();
-        grdT5.condition = T5Ct1;
-        grdT5.Activations.add(new Activation(t5, "F_x2", TransitionOperation.PopElementWithTarget, "F_T2"));
-        t5.GuardMappingList.add(grdT5);
+        GuardMapping grdT_RF_2 = new GuardMapping();
+        grdT_RF_2.condition = T_RF_2Ct1;
+        grdT_RF_2.Activations.add(new Activation(T_RF_2, "RF_x2", TransitionOperation.PopElementWithTarget, "RF_T2"));
+        T_RF_2.GuardMappingList.add(grdT_RF_2);
 
-        t5.Delay = 0;
-        pn.Transitions.add(t5);
+        T_RF_2.Delay = 0;
+        pn.Transitions.add(T_RF_2);
 
-        // T6 ------------------------------------------------
-        PetriTransition t6 = new PetriTransition(pn);
-        t6.TransitionName = "T_tip1";
-        t6.InputPlaceName.add("F_x2");
+        // T_RF_tip1 ------------------------------------------------
+        PetriTransition T_RF_tip1 = new PetriTransition(pn);
+        T_RF_tip1.TransitionName = "T_RF_tip1";
+        T_RF_tip1.InputPlaceName.add("RF_x2");
 
-        Condition T6Ct1 = new Condition(t6, "F_x2", TransitionCondition.HaveCarForMe);
-//        Condition T6Ct2 = new Condition(t6, "F_tipografiei", TransitionCondition.CanAddCars);
-//        T6Ct1.SetNextCondition(LogicConnector.AND, T6Ct2);
+        Condition T_RF_tip1Ct1 = new Condition(T_RF_tip1, "RF_x2", TransitionCondition.HaveCarForMe);
+//        Condition T_RF_tip1Ct2 = new Condition(T_RF_tip1, "RF_tipografiei", TransitionCondition.CanAddCars);
+//        T_RF_tip1Ct1.SetNextCondition(LogicConnector.AND, T_RF_tip1Ct2);
 
-        GuardMapping grdT6 = new GuardMapping();
-        grdT6.condition = T6Ct1;
-        grdT6.Activations.add(new Activation(t6, "F_x2", TransitionOperation.Move, "F_tipografiei"));
-        t6.GuardMappingList.add(grdT6);
+        GuardMapping grdT_RF_tip1 = new GuardMapping();
+        grdT_RF_tip1.condition = T_RF_tip1Ct1;
+        grdT_RF_tip1.Activations.add(new Activation(T_RF_tip1, "RF_x2", TransitionOperation.Move, "RF_tipografiei"));
+        T_RF_tip1.GuardMappingList.add(grdT_RF_tip1);
 
-        t6.Delay = 0;
-        pn.Transitions.add(t6);
+        T_RF_tip1.Delay = 0;
+        pn.Transitions.add(T_RF_tip1);
 
-        // T7 ------------------------------------------------
-        PetriTransition t7 = new PetriTransition(pn);
-        t7.TransitionName = "T_tip2";
-        t7.InputPlaceName.add("F_tipografiei");
+        // T_RF_tip2 ------------------------------------------------
+        PetriTransition T_RF_tip2 = new PetriTransition(pn);
+        T_RF_tip2.TransitionName = "T_RF_tip2";
+        T_RF_tip2.InputPlaceName.add("RF_tipografiei");
 
-        Condition T7Ct1 = new Condition(t7, "F_tipografiei", TransitionCondition.NotNull);
+        Condition T_RF_tip2Ct1 = new Condition(T_RF_tip2, "RF_tipografiei", TransitionCondition.NotNull);
 
-        GuardMapping grdT7 = new GuardMapping();
-        grdT7.condition = T7Ct1;
-        grdT7.Activations.add(new Activation(t7, "F_tipografiei", TransitionOperation.Move, "F_tipografiei_o"));
-        t7.GuardMappingList.add(grdT7);
+        GuardMapping grdT_RF_tip2 = new GuardMapping();
+        grdT_RF_tip2.condition = T_RF_tip2Ct1;
+        grdT_RF_tip2.Activations.add(new Activation(T_RF_tip2, "RF_tipografiei", TransitionOperation.Move, "RF_tipografiei_o"));
+        T_RF_tip2.GuardMappingList.add(grdT_RF_tip2);
 
-        t7.Delay = 0;
-        pn.Transitions.add(t7);
+        T_RF_tip2.Delay = 0;
+        pn.Transitions.add(T_RF_tip2);
 
-        // T8 ------------------------------------------------
-        PetriTransition t8 = new PetriTransition(pn);
-        t8.TransitionName = "T_u2";
-        t8.InputPlaceName.add("F_T2");
+        // T_RF_u2 ------------------------------------------------
+        PetriTransition T_RF_u2 = new PetriTransition(pn);
+        T_RF_u2.TransitionName = "T_RF_u2";
+        T_RF_u2.InputPlaceName.add("RF_T2");
 
-        Condition T8Ct1 = new Condition(t8, "F_T2", TransitionCondition.NotNull);
-        Condition T8Ct2 = new Condition(t8, "F_x3", TransitionCondition.CanAddCars);
-        T8Ct1.SetNextCondition(LogicConnector.AND, T8Ct2);
+        Condition T_RF_u2Ct1 = new Condition(T_RF_u2, "RF_T2", TransitionCondition.NotNull);
+        Condition T_RF_u2Ct2 = new Condition(T_RF_u2, "RF_x3", TransitionCondition.CanAddCars);
+        T_RF_u2Ct1.SetNextCondition(LogicConnector.AND, T_RF_u2Ct2);
 
 
-        GuardMapping grdT8 = new GuardMapping();
-        grdT8.condition = T8Ct1;
-        grdT8.Activations.add(new Activation(t8, "F_T2", TransitionOperation.AddElement, "F_x3"));
-        t8.GuardMappingList.add(grdT8);
+        GuardMapping grdT_RF_u2 = new GuardMapping();
+        grdT_RF_u2.condition = T_RF_u2Ct1;
+        grdT_RF_u2.Activations.add(new Activation(T_RF_u2, "RF_T2", TransitionOperation.AddElement, "RF_x3"));
+        T_RF_u2.GuardMappingList.add(grdT_RF_u2);
 
-        t8.Delay = 0;
-        pn.Transitions.add(t8);
+        T_RF_u2.Delay = 0;
+        pn.Transitions.add(T_RF_u2);
 
 
-        // T9 ------------------------------------------------
-        PetriTransition t9 = new PetriTransition(pn);
-        t9.TransitionName = "T_e3";
-        t9.InputPlaceName.add("F_x3");
-        t9.InputPlaceName.add("F_TL3");
-        t9.InputPlaceName.add("F_PTL3");
-        t9.InputPlaceName.add("FUsReq3");
+        // T_RF_e3 ------------------------------------------------
+        PetriTransition T_RF_e3 = new PetriTransition(pn);
+        T_RF_e3.TransitionName = "T_RF_e3";
+        T_RF_e3.InputPlaceName.add("RF_x3");
+        T_RF_e3.InputPlaceName.add("RF_TL3");
+        T_RF_e3.InputPlaceName.add("RF_PTL3");
+        T_RF_e3.InputPlaceName.add("RFUsReq3");
 
 
-        Condition T9Ct1 = new Condition(t9, "F_TL3", TransitionCondition.Equal,"green");
-        Condition T9Ct2 = new Condition(t9, "F_x3", TransitionCondition.HaveCar);
-        T9Ct1.SetNextCondition(LogicConnector.AND, T9Ct2);
+        Condition T_RF_e3Ct1 = new Condition(T_RF_e3, "RF_TL3", TransitionCondition.Equal,"green");
+        Condition T_RF_e3Ct2 = new Condition(T_RF_e3, "RF_x3", TransitionCondition.HaveCar);
+        T_RF_e3Ct1.SetNextCondition(LogicConnector.AND, T_RF_e3Ct2);
 
-        GuardMapping grdT9 = new GuardMapping();
-        grdT9.condition= T9Ct1;
-        grdT9.Activations.add(new Activation(t9, "F_x3", TransitionOperation.PopElementWithoutTarget, "F_b2"));
-        grdT9.Activations.add(new Activation(t9, "F_TL3", TransitionOperation.Move, "F_TL3"));
-        grdT9.Activations.add(new Activation(t9, "F_PTL3", TransitionOperation.Move, "F_PTL3"));
+        GuardMapping grdT_RF_e3 = new GuardMapping();
+        grdT_RF_e3.condition= T_RF_e3Ct1;
+        grdT_RF_e3.Activations.add(new Activation(T_RF_e3, "RF_x3", TransitionOperation.PopElementWithoutTarget, "RF_b2"));
+        grdT_RF_e3.Activations.add(new Activation(T_RF_e3, "RF_TL3", TransitionOperation.Move, "RF_TL3"));
+        grdT_RF_e3.Activations.add(new Activation(T_RF_e3, "RF_PTL3", TransitionOperation.Move, "RF_PTL3"));
 
-        t9.GuardMappingList.add(grdT9);
+        T_RF_e3.GuardMappingList.add(grdT_RF_e3);
 
-        Condition T9Ct3 = new Condition(t9, "FUsReq3", TransitionCondition.NotNull);
+        Condition T_RF_e3Ct3 = new Condition(T_RF_e3, "RFUsReq3", TransitionCondition.NotNull);
 
-        GuardMapping grdT92 = new GuardMapping();
-        grdT92.condition= T9Ct3;
-        grdT92.Activations.add(new Activation(t9, "FUsReq3", TransitionOperation.SendOverNetwork, "OFReq3"));
-        grdT92.Activations.add(new Activation(t9, "F_TL3", TransitionOperation.Move, "F_TL3"));
-        grdT92.Activations.add(new Activation(t9, "F_PTL3", TransitionOperation.Move, "F_PTL3"));
+        GuardMapping grdT_RF_e32 = new GuardMapping();
+        grdT_RF_e32.condition= T_RF_e3Ct3;
+        grdT_RF_e32.Activations.add(new Activation(T_RF_e3, "RFUsReq3", TransitionOperation.SendOverNetwork, "ORFReq3"));
+        grdT_RF_e32.Activations.add(new Activation(T_RF_e3, "RF_TL3", TransitionOperation.Move, "RF_TL3"));
+        grdT_RF_e32.Activations.add(new Activation(T_RF_e3, "RF_PTL3", TransitionOperation.Move, "RF_PTL3"));
 
-        t9.GuardMappingList.add(grdT92);
+        T_RF_e3.GuardMappingList.add(grdT_RF_e32);
 
-        t9.Delay = 1;
-        pn.Transitions.add(t9);
+        T_RF_e3.Delay = 1;
+        pn.Transitions.add(T_RF_e3);
 
-        // T10 ------------------------------------------------
-        PetriTransition t10 = new PetriTransition(pn);
-        t10.TransitionName = "T_u3";
-        t10.InputPlaceName.add("F_b2");
+        // T_RF_u3 ------------------------------------------------
+        PetriTransition T_RF_u3 = new PetriTransition(pn);
+        T_RF_u3.TransitionName = "T_RF_u3";
+        T_RF_u3.InputPlaceName.add("RF_b2");
 
-        Condition T10Ct1 = new Condition(t10, "F_b2", TransitionCondition.NotNull);
-        Condition T10Ct2 = new Condition(t10, "F_x4", TransitionCondition.CanAddCars);
-        T10Ct1.SetNextCondition(LogicConnector.AND, T10Ct2);
+        Condition T_RF_u3Ct1 = new Condition(T_RF_u3, "RF_b2", TransitionCondition.NotNull);
+        Condition T_RF_u3Ct2 = new Condition(T_RF_u3, "RF_x4", TransitionCondition.CanAddCars);
+        T_RF_u3Ct1.SetNextCondition(LogicConnector.AND, T_RF_u3Ct2);
 
 
-        GuardMapping grdT10 = new GuardMapping();
-        grdT10.condition = T10Ct1;
-        grdT10.Activations.add(new Activation(t10, "F_b2", TransitionOperation.AddElement, "F_x4"));
-        t10.GuardMappingList.add(grdT10);
+        GuardMapping grdT_RF_u3 = new GuardMapping();
+        grdT_RF_u3.condition = T_RF_u3Ct1;
+        grdT_RF_u3.Activations.add(new Activation(T_RF_u3, "RF_b2", TransitionOperation.AddElement, "RF_x4"));
+        T_RF_u3.GuardMappingList.add(grdT_RF_u3);
 
-        t10.Delay = 0;
-        pn.Transitions.add(t10);
+        T_RF_u3.Delay = 0;
+        pn.Transitions.add(T_RF_u3);
 
-        // T11 ------------------------------------------------
-        PetriTransition t11 = new PetriTransition(pn);
-        t11.TransitionName = "T_sag1";
-        t11.InputPlaceName.add("F_saguna_i");
+        // T_RF_sag1 ------------------------------------------------
+        PetriTransition T_RF_sag1 = new PetriTransition(pn);
+        T_RF_sag1.TransitionName = "T_RF_sag1";
+        T_RF_sag1.InputPlaceName.add("RF_saguna_i");
 
-        Condition T11Ct1 = new Condition(t11, "F_saguna_i", TransitionCondition.NotNull);
+        Condition T_RF_sag1Ct1 = new Condition(T_RF_sag1, "RF_saguna_i", TransitionCondition.NotNull);
 
-        GuardMapping grdT11 = new GuardMapping();
-        grdT11.condition = T11Ct1;
-        grdT11.Activations.add(new Activation(t11, "F_saguna_i", TransitionOperation.Move, "F_saguna"));
-        t11.GuardMappingList.add(grdT11);
+        GuardMapping grdT_RF_sag1 = new GuardMapping();
+        grdT_RF_sag1.condition = T_RF_sag1Ct1;
+        grdT_RF_sag1.Activations.add(new Activation(T_RF_sag1, "RF_saguna_i", TransitionOperation.Move, "RF_saguna"));
+        T_RF_sag1.GuardMappingList.add(grdT_RF_sag1);
 
-        t11.Delay = 0;
-        pn.Transitions.add(t11);
+        T_RF_sag1.Delay = 0;
+        pn.Transitions.add(T_RF_sag1);
 
-        // T12 ------------------------------------------------
-        PetriTransition t12 = new PetriTransition(pn);
-        t12.TransitionName = "T_sag2";
-        t12.InputPlaceName.add("F_saguna");
+        // T_RF_sag2 ------------------------------------------------
+        PetriTransition T_RF_sag2 = new PetriTransition(pn);
+        T_RF_sag2.TransitionName = "T_RF_sag2";
+        T_RF_sag2.InputPlaceName.add("RF_saguna");
 
-        Condition T12Ct1 = new Condition(t12, "F_saguna", TransitionCondition.NotNull);
-        Condition T12Ct2 = new Condition(t12, "F_x4", TransitionCondition.CanAddCars);
-        T12Ct1.SetNextCondition(LogicConnector.AND, T12Ct2);
+        Condition T_RF_sag2Ct1 = new Condition(T_RF_sag2, "RF_saguna", TransitionCondition.NotNull);
+        Condition T_RF_sag2Ct2 = new Condition(T_RF_sag2, "RF_x4", TransitionCondition.CanAddCars);
+        T_RF_sag2Ct1.SetNextCondition(LogicConnector.AND, T_RF_sag2Ct2);
 
 
-        GuardMapping grdT12 = new GuardMapping();
-        grdT12.condition = T12Ct1;
-        grdT12.Activations.add(new Activation(t12, "F_saguna", TransitionOperation.AddElement, "F_x4"));
-        t12.GuardMappingList.add(grdT12);
+        GuardMapping grdT_RF_sag2 = new GuardMapping();
+        grdT_RF_sag2.condition = T_RF_sag2Ct1;
+        grdT_RF_sag2.Activations.add(new Activation(T_RF_sag2, "RF_saguna", TransitionOperation.AddElement, "RF_x4"));
+        T_RF_sag2.GuardMappingList.add(grdT_RF_sag2);
 
-        t12.Delay = 0;
-        pn.Transitions.add(t12);
+        T_RF_sag2.Delay = 0;
+        pn.Transitions.add(T_RF_sag2);
 
 
-        // T13 ------------------------------------------------
-        PetriTransition t13 = new PetriTransition(pn);
-        t13.TransitionName = "T_e4";
-        t13.InputPlaceName.add("F_x4");
-        t13.InputPlaceName.add("F_TL4");
+        // T_RF_e4 ------------------------------------------------
+        PetriTransition T_RF_e4 = new PetriTransition(pn);
+        T_RF_e4.TransitionName = "T_RF_e4";
+        T_RF_e4.InputPlaceName.add("RF_x4");
+        T_RF_e4.InputPlaceName.add("RF_TL4");
 
-        Condition T13Ct1 = new Condition(t13, "F_TL4", TransitionCondition.Equal, "green");
-        Condition T13Ct2 = new Condition(t13, "F_x4", TransitionCondition.HaveCar);
-        T13Ct1.SetNextCondition(LogicConnector.AND, T13Ct2);
+        Condition T_RF_e4Ct1 = new Condition(T_RF_e4, "RF_TL4", TransitionCondition.Equal, "green");
+        Condition T_RF_e4Ct2 = new Condition(T_RF_e4, "RF_x4", TransitionCondition.HaveCar);
+        T_RF_e4Ct1.SetNextCondition(LogicConnector.AND, T_RF_e4Ct2);
 
-        GuardMapping grdT13 = new GuardMapping();
-        grdT13.condition = T13Ct1;
-        grdT13.Activations.add(new Activation(t13, "F_x4", TransitionOperation.PopElementWithoutTarget, "F_b4"));
-        grdT13.Activations.add(new Activation(t13, "F_TL4", TransitionOperation.Move, "F_TL4"));
-        t13.GuardMappingList.add(grdT13);
+        GuardMapping grdT_RF_e4 = new GuardMapping();
+        grdT_RF_e4.condition = T_RF_e4Ct1;
+        grdT_RF_e4.Activations.add(new Activation(T_RF_e4, "RF_x4", TransitionOperation.PopElementWithoutTarget, "RF_b4"));
+        grdT_RF_e4.Activations.add(new Activation(T_RF_e4, "RF_TL4", TransitionOperation.Move, "RF_TL4"));
+        T_RF_e4.GuardMappingList.add(grdT_RF_e4);
 
-        t13.Delay = 1;
-        pn.Transitions.add(t13);
+        T_RF_e4.Delay = 1;
+        pn.Transitions.add(T_RF_e4);
 
-        // T14 ------------------------------------------------
-        PetriTransition t14 = new PetriTransition(pn);
-        t14.TransitionName = "T_out4";
-        t14.InputPlaceName.add("F_b2");
-        t14.InputPlaceName.add("F_x4");
-        t14.IsAsync = true;
+        // T_RF_out4 ------------------------------------------------
+        PetriTransition T_RF_out4 = new PetriTransition(pn);
+        T_RF_out4.TransitionName = "T_RF_out4";
+        T_RF_out4.InputPlaceName.add("RF_b2");
+        T_RF_out4.InputPlaceName.add("RF_x4");
+        T_RF_out4.IsAsync = true;
 
-        Condition T14Ct1 = new Condition(t14, "F_b2", TransitionCondition.NotNull);
-        Condition T14Ct2 = new Condition(t14, "F_x4", TransitionCondition.CanNotAddCars);
-        T14Ct1.SetNextCondition(LogicConnector.AND, T14Ct2);
+        Condition T_RF_out4Ct1 = new Condition(T_RF_out4, "RF_b2", TransitionCondition.NotNull);
+        Condition T_RF_out4Ct2 = new Condition(T_RF_out4, "RF_x4", TransitionCondition.CanNotAddCars);
+        T_RF_out4Ct1.SetNextCondition(LogicConnector.AND, T_RF_out4Ct2);
 
-        GuardMapping grdT14 = new GuardMapping();
-        grdT14.condition = T14Ct1;
-        grdT14.Activations.add(new Activation(t14, "full", TransitionOperation.PopElementWithoutTarget, "F_OP4"));
-        t14.GuardMappingList.add(grdT14);
+        GuardMapping grdT_RF_out4 = new GuardMapping();
+        grdT_RF_out4.condition = T_RF_out4Ct1;
+        grdT_RF_out4.Activations.add(new Activation(T_RF_out4, "full", TransitionOperation.PopElementWithoutTarget, "RF_OP4"));
+        T_RF_out4.GuardMappingList.add(grdT_RF_out4);
 
-        t14.Delay = 0;
-        pn.Transitions.add(t14);
+        T_RF_out4.Delay = 0;
+        pn.Transitions.add(T_RF_out4);
 
+        // ----------------------------------------------------------------------------
+        // ----------------------------Exit lane-------------------------------------
+        // ----------------------------Regele Ferdinand--------------------------------------
 
-        // --------------------------------------firstpart-------------------------------------------
+        // T_RF_g ------------------------------------------------
+        PetriTransition T_RF_g = new PetriTransition(pn);
+        T_RF_g.TransitionName = "T_RF_g";
+        T_RF_g.InputPlaceName.add("P_I");
+        T_RF_g.InputPlaceName.add("RF_o");
 
-        // T15 ------------------------------------------------
-        PetriTransition t15 = new PetriTransition(pn);
-        t15.TransitionName = "T_i1";
-        t15.InputPlaceName.add("F_b4");
-        t15.InputPlaceName.add("P_I1");
+        Condition T_RF_gCt1 = new Condition(T_RF_g, "P_I", TransitionCondition.HaveCarForMe);
+        Condition T_RF_gCt2 = new Condition(T_RF_g, "RF_o", TransitionCondition.CanAddCars);
+        Condition T_RF_gCt3 = new Condition(T_RF_g, "P_I", TransitionCondition.isBus);
 
-        Condition T15Ct1 = new Condition(t15, "F_b4", TransitionCondition.NotNull);
-        Condition T15Ct2 = new Condition(t15, "P_I1", TransitionCondition.CanAddCars);
-        T15Ct1.SetNextCondition(LogicConnector.AND, T15Ct2);
+        T_RF_gCt1.SetNextCondition(LogicConnector.AND, T_RF_gCt2);
+        T_RF_gCt2.SetNextCondition(LogicConnector.AND, T_RF_gCt3);
 
-        GuardMapping grdT15 = new GuardMapping();
-        grdT15.condition = T15Ct1;
-        grdT15.Activations.add(new Activation(t15, "F_b4", TransitionOperation.AddElement, "P_I1"));
-        t15.GuardMappingList.add(grdT15);
 
-        t15.Delay = 0;
-        pn.Transitions.add(t15);
+        GuardMapping grdT_RF_g = new GuardMapping();
+        grdT_RF_g.condition = T_RF_gCt1;
+        grdT_RF_g.Activations.add(new Activation(T_RF_g, "P_I", TransitionOperation.PopElementWithTargetToQueue, "RF_o"));
+        T_RF_g.GuardMappingList.add(grdT_RF_g);
 
-        // T16-----------------------------------------------------------
-        PetriTransition t16 = new PetriTransition(pn);
-        t16.TransitionName = "T_g2";
-        t16.InputPlaceName.add("P_I1");
-        t16.InputPlaceName.add("M_o1");
+        T_RF_out4.Delay = 1;
+        pn.Transitions.add(T_RF_g);
 
-        Condition T16Ct1 = new Condition(t16, "P_I1", TransitionCondition.HaveCarForMe);
-        Condition T16Ct2 = new Condition(t16, "M_o1", TransitionCondition.CanAddCars);
-        T16Ct1.SetNextCondition(LogicConnector.AND, T16Ct2);
+        // T_RF_ge----------------------------------------------------------------
 
-        GuardMapping grdT16 = new GuardMapping();
-        grdT16.condition = T16Ct1;
-        grdT16.Activations.add(new Activation(t16, "P_I1", TransitionOperation.PopElementWithTargetToQueue, "M_o1"));
-        t16.GuardMappingList.add(grdT16);
+        PetriTransition T_RF_ge = new PetriTransition(pn);
+        T_RF_ge.TransitionName = "T_RF_ge";
+        T_RF_ge.InputPlaceName.add("RF_o");
 
-        t16.Delay = 1;
-        pn.Transitions.add(t16);
+        Condition T_RF_geCt1 = new Condition(T_RF_ge, "RF_o", TransitionCondition.HaveCar);
 
-        // T17----------------------------------------------------------------
-        PetriTransition t17 = new PetriTransition(pn);
-        t17.TransitionName = "T_g2e";
-        t17.InputPlaceName.add("M_o1");
+        GuardMapping grdT_RF_ge = new GuardMapping();
+        grdT_RF_ge.condition = T_RF_geCt1;
+        grdT_RF_ge.Activations.add(new Activation(T_RF_ge, "RF_o", TransitionOperation.PopElementWithoutTarget, "RF_oe"));
+        T_RF_ge.GuardMappingList.add(grdT_RF_ge);
 
-        Condition T17Ct1 = new Condition(t17, "M_o1", TransitionCondition.HaveCar);
+        T_RF_ge.Delay = 0;
+        pn.Transitions.add(T_RF_ge);
 
-        GuardMapping grdT17 = new GuardMapping();
-        grdT17.condition = T17Ct1;
-        grdT17.Activations.add(new Activation(t17, "M_o1", TransitionOperation.PopElementWithoutTarget, "M_o1e"));
-        t17.GuardMappingList.add(grdT10);
+        // T_RF_u4 ------------------------------------------------
+        PetriTransition T_RF_u4 = new PetriTransition(pn);
+        T_RF_u4.TransitionName = "T_RF_u4";
+        T_RF_u4.InputPlaceName.add("RF_oe");
 
-        t17.Delay = 0;
-        pn.Transitions.add(t17);
+        Condition T_RF_u4Ct1 = new Condition(T_RF_u4, "RF_oe", TransitionCondition.NotNull);
+        Condition T_RF_u4Ct2 = new Condition(T_RF_u4, "RF_x5", TransitionCondition.CanAddCars);
+        T_RF_u4Ct1.SetNextCondition(LogicConnector.AND, T_RF_u4Ct2);
 
 
+        GuardMapping grdT_RF_u4 = new GuardMapping();
+        grdT_RF_u4.condition = T_RF_u4Ct1;
+        grdT_RF_u4.Activations.add(new Activation(T_RF_u4, "RF_oe", TransitionOperation.AddElement, "RF_x5"));
+        T_RF_u4.GuardMappingList.add(grdT_RF_u4);
 
+        T_RF_u4.Delay = 0;
+        pn.Transitions.add(T_RF_u4);
+
+        // T_RF_e5 ------------------------------------------------
+        PetriTransition T_RF_e5 = new PetriTransition(pn);
+        T_RF_e5.TransitionName = "T_RF_e5";
+        T_RF_e5.InputPlaceName.add("RF_x5");
+        T_RF_e5.InputPlaceName.add("RF_TL3");
+        T_RF_e5.InputPlaceName.add("RF_PTL3");
+        T_RF_e5.InputPlaceName.add("RFUsReq3");
+
+
+        Condition T_RF_e5Ct1 = new Condition(T_RF_e5, "RF_TL3", TransitionCondition.Equal,"green");
+        Condition T_RF_e5Ct2 = new Condition(T_RF_e5, "RF_x5", TransitionCondition.HaveCar);
+        T_RF_e5Ct1.SetNextCondition(LogicConnector.AND, T_RF_e5Ct2);
+
+        GuardMapping grdT_RF_e5 = new GuardMapping();
+        grdT_RF_e5.condition= T_RF_e5Ct1;
+        grdT_RF_e5.Activations.add(new Activation(T_RF_e5, "RF_x5", TransitionOperation.PopElementWithoutTarget, "RF_b5"));
+        grdT_RF_e5.Activations.add(new Activation(T_RF_e5, "RF_TL3", TransitionOperation.Move, "RF_TL3"));
+        grdT_RF_e5.Activations.add(new Activation(T_RF_e5, "RF_PTL3", TransitionOperation.Move, "RF_PTL3"));
+
+        T_RF_e5.GuardMappingList.add(grdT_RF_e5);
+
+        Condition T_RF_e5Ct3 = new Condition(T_RF_e5, "RFUsReq3", TransitionCondition.NotNull);
+
+        GuardMapping grdT_RF_e52 = new GuardMapping();
+        grdT_RF_e52.condition= T_RF_e5Ct3;
+        grdT_RF_e52.Activations.add(new Activation(T_RF_e5, "RFUsReq3", TransitionOperation.SendOverNetwork, "ORFReq3"));
+        grdT_RF_e52.Activations.add(new Activation(T_RF_e5, "RF_TL3", TransitionOperation.Move, "RF_TL3"));
+        grdT_RF_e52.Activations.add(new Activation(T_RF_e5, "RF_PTL3", TransitionOperation.Move, "RF_PTL3"));
+
+        T_RF_e5.GuardMappingList.add(grdT_RF_e52);
+
+        T_RF_e5.Delay = 1;
+        pn.Transitions.add(T_RF_e5);
+
+        // T_RF_oct1 ------------------------------------------------
+        PetriTransition T_RF_oct1 = new PetriTransition(pn);
+        T_RF_oct1.TransitionName = "T_RF_oct1";
+        T_RF_oct1.InputPlaceName.add("RF_b5");
+
+        Condition T_RF_oct1Ct1 = new Condition(T_RF_oct1, "RF_b5", TransitionCondition.HaveCarForMe);
+//        Condition T_RF_oct1Ct2 = new Condition(T_RF_oct1, "RF_oct", TransitionCondition.CanAddCars);
+//        T_RF_oct1Ct1.SetNextCondition(LogicConnector.AND, T_RF_oct1Ct2);
+
+        GuardMapping grdT_RF_oct1 = new GuardMapping();
+        grdT_RF_oct1.condition = T_RF_oct1Ct1;
+        grdT_RF_oct1.Activations.add(new Activation(T_RF_oct1, "RF_b5", TransitionOperation.Move, "RF_oct"));
+        T_RF_oct1.GuardMappingList.add(grdT_RF_oct1);
+
+        T_RF_oct1.Delay = 0;
+        pn.Transitions.add(T_RF_oct1);
+
+        // T_RF_oct2 ------------------------------------------------
+        PetriTransition T_RF_oct2 = new PetriTransition(pn);
+        T_RF_oct2.TransitionName = "T_RF_oct2";
+        T_RF_oct2.InputPlaceName.add("RF_oct");
+
+        Condition T_RF_oct2Ct1 = new Condition(T_RF_oct2, "RF_oct", TransitionCondition.NotNull);
+
+        GuardMapping grdT_RF_oct2 = new GuardMapping();
+        grdT_RF_oct2.condition = T_RF_oct2Ct1;
+        grdT_RF_oct2.Activations.add(new Activation(T_RF_oct2, "RF_oct", TransitionOperation.Move, "RF_oct_o"));
+        T_RF_oct2.GuardMappingList.add(grdT_RF_oct2);
+
+        T_RF_oct2.Delay = 0;
+        pn.Transitions.add(T_RF_oct2);
+
+        // T_RF_g2 ------------------------------------------------
+        PetriTransition T_RF_g2 = new PetriTransition(pn);
+        T_RF_g2.TransitionName = "T_RF_g2";
+        T_RF_g2.InputPlaceName.add("RF_b5");
+
+        Condition T_RF_g2Ct1 = new Condition(T_RF_g2, "RF_b5", TransitionCondition.HaveCarForMe);
+//        Condition T_RF_g2Ct2 = new Condition(T_RF_g2, "RF_o2", TransitionCondition.CanAddCars);
+//        T_RF_g2Ct1.SetNextCondition(LogicConnector.AND, T_RF_g2Ct2);
+
+        GuardMapping grdT_RF_g2 = new GuardMapping();
+        grdT_RF_g2.condition = T_RF_g2Ct1;
+        grdT_RF_g2.Activations.add(new Activation(T_RF_g2, "RF_b5", TransitionOperation.Move, "RF_o2"));
+        T_RF_g2.GuardMappingList.add(grdT_RF_g2);
+
+        T_RF_g2.Delay = 0;
+        pn.Transitions.add(T_RF_g2);
+
+        // T_RF_g2e ------------------------------------------------
+        PetriTransition T_RF_g2e = new PetriTransition(pn);
+        T_RF_g2e.TransitionName = "T_RF_g2e";
+        T_RF_g2e.InputPlaceName.add("RF_o2");
+
+        Condition T_RF_g2eCt1 = new Condition(T_RF_g2e, "RF_o2", TransitionCondition.NotNull);
+
+        GuardMapping grdT_RF_g2e = new GuardMapping();
+        grdT_RF_g2e.condition = T_RF_g2eCt1;
+        grdT_RF_g2e.Activations.add(new Activation(T_RF_g2e, "RF_o2", TransitionOperation.Move, "RF_o2e"));
+        T_RF_g2e.GuardMappingList.add(grdT_RF_g2e);
+
+        T_RF_g2e.Delay = 0;
+        pn.Transitions.add(T_RF_g2e);
 
 
         // -------------------------------------------------------------------------------------
